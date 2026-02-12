@@ -21,6 +21,7 @@ app.use(cors({
     origin: [
         'http://localhost:5173',
         'https://portfolio-frontend-inky-ten.vercel.app',
+        'https://portfolio-d34k.onrender.com',
         process.env.FRONTEND_URL],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
