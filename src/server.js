@@ -20,6 +20,7 @@ const app = express();
 app.use(cors({
     origin: [
         'http://localhost:5173',
+        'https://portfolio-frontend-inky-ten.vercel.app',
         process.env.FRONTEND_URL],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
